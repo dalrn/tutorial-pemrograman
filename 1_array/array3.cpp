@@ -24,17 +24,5 @@ int main(){
     for(int i = 0; i < panjang; i++){
         cout<<arr[i]<<endl;
     }
-
-    float a[8] = {1, 13, 2, 10, 2.5, 1, 10, 10};
-
-    bool sorted = true; // anggap terurut
-
-    for (int i = 0; i < 7; i++) { // cek hingga elemen kedua terakhir
-        if (a[i] > a[i + 1]) { // jika ada penurunan...
-            sorted = false; // ...maka gak jadi terurut
-            break;
-        }
-    }
-    if (sorted) cout << "Ya" << endl;
-    else cout << "Tidak" << endl;
+    return 0;
 }
