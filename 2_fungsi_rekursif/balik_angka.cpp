@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-// ide: Idenya adalah mengambil digit terakhir dengan operasi sisa pembagian 10 (nmod10), lalu menghapus
+// ide: ambil digit terakhir dengan operasi sisa pembagian 10 (n mod 10), lalu hapus
 // digit terakhir dengan pembagian bulat 10 (n/10) berulang kali.
 
-int reverseNumber(int n, int result = 0) {
+int reverseNumber(int n) {
+    int result = 0;
     if (n == 0) // kondisi batasan: tidak ada digit tersisa
         return result;
 
